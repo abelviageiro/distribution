@@ -31,7 +31,7 @@ NOTE that it is important, especially on a Unix environments, that the relative 
 
 ```
 amzi
-  eclipse
+  ide
     eclipse(.app/.exe)
   apls
     bin
