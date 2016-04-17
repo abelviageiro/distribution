@@ -15,9 +15,7 @@ amzi
 
 The listener is in the bin directory, called *alis(.exe)*.  You can run it from there.
 
-Alternatively, to use the command line tools, you might want to create an environment variable:
-
-AMZI_DIR that points to the *apls* directory of the installation.  (Don’t point it elsewhere, some internal functions use it if it’s defined and expect it to point to the *apls* directory.)
+Alternatively, to use the command line tools, you might want to create an environment variable AMZI_DIR that points to the *apls* directory of the installation.  (Don’t point it elsewhere, some internal functions use it if it’s defined and expect it to point to the *apls* directory.)
 
 And put the AMZI_DIR/bin directory on the PATH.
 
@@ -27,7 +25,7 @@ If you created an *amzi* directory, as above, then create an *amzi/ide* director
 
 Use the Eclipse tools to add a plug-in, picking the one from the *apls/eclipse_plugin* directory.
 
-NOTE that it is important, especially on a Unix environments, that the relative position of the directories be as follows.  This is how the Eclipse plugin finds Amzi! if it can’t access an AMZI_DIR environment variable.  (Which is often can’t, for example, on the Mac.)
+NOTE that it is important, especially on a Unix environments, that the relative position of the directories be as follows.  This is how the Eclipse plugin finds Amzi! if it can’t access an AMZI_DIR environment variable.  (Which it often can’t, for example, on the Mac.)
 
 ```
 amzi
