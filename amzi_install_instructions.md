@@ -1,4 +1,4 @@
-##Installation Instructions
+##Amzi! Prolog + Logic Server Installation Instructions
 
 ###Command Line Tools
 
