@@ -9,7 +9,6 @@ amzi
   apls
     bin
     abin
-    eclipse_plugin
     . . .
 ```
 
@@ -21,9 +20,11 @@ And put the AMZI_DIR/bin directory on the PATH.
 
 ###IDE
 
+Download the amzi_eclipse_plugin.
+
 If you created an *amzi* directory, as above, then create an *amzi/ide* directory, and in it download and install a copy of Eclipse, such as the one for Java development.
 
-Use the Eclipse tools to add a plug-in, picking the one from the *apls/eclipse_plugin* directory.
+Use the Eclipse tools to add the plug-in.  It’s in the help menu, under install new software.  You’ll need to point it to the directory where you unzipped the plug-in.
 
 NOTE that it is important, especially on a Unix environments, that the relative position of the directories be as follows.  This is how the Eclipse plugin finds Amzi! if it can’t access an AMZI_DIR environment variable.  (Which it often can’t, for example, on the Mac.)
 
@@ -36,6 +37,9 @@ amzi
     . . .
 ```
 If you are using an existing copy of Eclipse on your machine, then you should move the *apls* directory next to it in the same relative position as above.
+
+NOTE that the uninstall may not work as expected.  While, on the one hand, it works, you can uninstall, and then install a new version, on the other hand it leaves the old amzi plug-ins (5 of them) still in the Eclipse.app plugin directory, although it does remove the feature.  It also leaves them in the artifact.xml file.  ISSUE — if someone wants to work on this, that would be great.
+
 
 
 
