@@ -38,6 +38,12 @@ amzi
 ```
 If you are using an existing copy of Eclipse on your machine, then you should move the *apls* directory next to it in the same relative position as above.
 
+MAC Users -- It's best to unzip the apls directory in the Applications/eclipse directory so that the structure looks like:
+```
+Applications/eclipse/ide/eclipse.app
+Applications/eclipse/apls/
+```
+
 NOTE that the uninstall may not work as expected.  While, on the one hand, it works, you can uninstall, and then install a new version, on the other hand it leaves the old amzi plug-ins (5 of them) still in the Eclipse.app plugin directory, although it does remove the feature.  It also leaves them in the artifact.xml file.  ISSUE — if someone wants to work on this, that would be great.
 
 
