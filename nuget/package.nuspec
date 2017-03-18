@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="3.3">
+    <!-- Required elements-->
+    <id>amzinet</id>
+    <version>0.1.0</version>
+    <description>This package includes the .NET Wrapper of Amzi Prolog and Logic Server as well as the Native Logic Server DLL</description>
+    <authors>Dennis Merritt, Fahad Ash</authors>
+	<title>Amzi Prolog Logic Server</title>
+    <!-- Optional elements -->
+    <!-- ... -->
+	<contentFiles>
+		<files include="content\amzi.dll" buildAction="Content" copyToOutput="true" />
+	</contentFiles>
+    </metadata>
+    <!-- Optional 'files' node -->
+</package>
