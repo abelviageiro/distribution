@@ -17,7 +17,18 @@ The binary distribution files (ordered by platform) are:
 Extract the amzi_apls_\*.zip file to a location of your liking. Also set the environment variable AMZI_DIR to the folder you extracted the zip file to, appending "apls".
 For example, if you extracted ```amzi_apls_win64_<Version>.zip``` to ```D:\amzi_prolog```, then set AMZI_DIR to ```D:\amzi_prolog\apls```.
 
+If everything was done correctly, the folder structure should resemble this:
+```
+amzi_prolog <-- top directory might differ (see above)
+  apls
+    bin
+    abin
+    . . .
+```
+
 **Optional:** To ease access to the command line tools, add the AMZI_DIR\bin directory to the PATH environment variable.
+
+When using Amzi! Prolog Logic Server under Windows, it can be useful to install both, the 32 bit and 64 bit version, to have both DLLs available, when embedding them in C/C++, Delphi, or similar applications, that come in various bitness. In this case, you have to choose a main installation / bitness for which to set AMZI_DIR.
 
 ## Eclipse IDE support
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
