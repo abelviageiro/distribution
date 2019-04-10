@@ -14,8 +14,10 @@ The binary distribution files (ordered by platform) are:
   
 ## Installation 
 
-Extract the amzi_apls_\*.zip file to a location of your liking. Under Windows, also set the environment variable AMZI_DIR to the folder you extracted the zip file to.
-For example, if you extracted ```amzi_apls_win64_<Version>.zip``` to ```D:\amzi_prolog\apls```, then set AMZI_DIR to ```D:\amzi_prolog\apls```.
+Extract the amzi_apls_\*.zip file to a location of your liking. Also set the environment variable AMZI_DIR to the folder you extracted the zip file to, appending "apls".
+For example, if you extracted ```amzi_apls_win64_<Version>.zip``` to ```D:\amzi_prolog```, then set AMZI_DIR to ```D:\amzi_prolog\apls```.
+
+**Optional:** To ease access to the command line tools, add the AMZI_DIR\bin directory to the PATH environment variable.
 
 ## Eclipse IDE support
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
