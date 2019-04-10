@@ -23,7 +23,7 @@ For example, if you extracted ```amzi_apls_win64_<Version>.zip``` to ```D:\amzi_
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
 The source code can be found in the separate IDE repository: https://github.com/AmziLS/ide
 
-A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*. Alternativley, follow the installation instructions below to get the latest plugin version, without having to explicitly download anything.
+A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*. Alternativley, follow the installation instructions below to get the latest plugin version, without having to explicitly download the plugin.
 
 ### Installation
 **Note:** Make sure you followed the steps above for the general installation of Amzi! Prolog and Logic Server, before proceeding.
