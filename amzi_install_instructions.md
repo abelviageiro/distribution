@@ -1,6 +1,6 @@
-##Amzi! Prolog + Logic Server Installation Instructions
+## Amzi! Prolog + Logic Server Installation Instructions
 
-###Command Line Tools
+### Command Line Tools
 
 Uncompress the distribution files into a directory, say *amzi*.  That will create an *apls* sub directory.  For example:
 
@@ -18,7 +18,7 @@ Alternatively, to use the command line tools, you might want to create an enviro
 
 And put the AMZI_DIR/bin directory on the PATH.
 
-###IDE
+### IDE
 
 Download the amzi_eclipse_plugin.
 
@@ -44,7 +44,7 @@ Applications/eclipse/ide/eclipse.app
 Applications/eclipse/apls/
 ```
 
-NOTE that the uninstall may not work as expected.  While, on the one hand, it works, you can uninstall, and then install a new version, on the other hand it leaves the old amzi plug-ins (5 of them) still in the Eclipse.app plugin directory, although it does remove the feature.  It also leaves them in the artifact.xml file.  ISSUE — if someone wants to work on this, that would be great.
+*NOTE* that the uninstall may not work as expected.  While, on the one hand, it works, you can uninstall, and then install a new version, on the other hand it leaves the old amzi plug-ins (5 of them) still in the Eclipse.app plugin directory, although it does remove the feature.  It also leaves them in the artifact.xml file.  ISSUE — if someone wants to work on this, that would be great.
 
 
 
