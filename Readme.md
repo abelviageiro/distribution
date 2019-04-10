@@ -1,5 +1,21 @@
 # Amzi Prolog Distribution
 This repository contains the binaries needed to integrate Amzi Prolog and Logic Server into your applications.
+Download the latest version for your platform, for best compatibility.
+
+The binary distribution files (ordered by platform) are:
+- Win32:
+  - amzi_apls_win32_\<Version>.zip
+- Win64:
+  - amzi_apls_win64_\<Version>.zip
+- Mac:
+  - amzi_apls_mac_\<Version>.zip
+- .NET:
+  - see below
+
+## Eclipse IDE support
+There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
+The source code can be found in the separate IDE repository: https://github.com/AmziLS/ide
+A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*.
 
 ## .NET
 There is a [NuGet package](https://www.nuget.org/packages/amzinet/0.1.0) that can easily be pulled into your project. The .NET binary package consists of two DLLs, one is the .NET wrapper called amzinet.dll and other is amzi.dll which is the Logic Server. amzi.dll should be deployed to your bin directory. The NuGet package is set up to make your project do just that. Besides NuGet, .NET binaries could also be found in one of the Windows archives found in this repository.
