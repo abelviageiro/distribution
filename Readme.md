@@ -17,6 +17,17 @@ There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consul
 The source code can be found in the separate IDE repository: https://github.com/AmziLS/ide
 
 A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*.
+### Installation
+To install the Eclipse plugin, make sure you have a recent version of Eclipse. In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
+
+https://github.com/AmziLS/distribution/raw/master/eclipse_plugin_update_site/
+
+Check "Amzi! Eclipse Feature" (and its sub elements), click "Next" several times, accept the license terms, then click "Finish".
+Go in the menu "Window|Perspective|Open Perspective|Other..." and select "Prolog" then confirm.
+From there on, you may want to watch these two videos:
+
+- [Getting Started with Eclipse Amzi! Prolog](https://www.youtube.com/watch?v=EMxLnn2I9yo)
+- [Amzi! Prolog Source Code Debugger in Eclipse](https://www.youtube.com/watch?v=fewTmnarfu8)
 
 ## .NET
 There is a [NuGet package](https://www.nuget.org/packages/amzinet/0.1.0) that can easily be pulled into your project. The .NET binary package consists of two DLLs, one is the .NET wrapper called amzinet.dll and other is amzi.dll which is the Logic Server. amzi.dll should be deployed to your bin directory. The NuGet package is set up to make your project do just that. Besides NuGet, .NET binaries could also be found in one of the Windows archives found in this repository.
