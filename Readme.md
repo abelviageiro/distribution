@@ -1,5 +1,5 @@
 # Amzi Prolog Distribution
-This repository contains the binaries needed run Amzi! Prolog standalone or to integrate Amzi! Prolog Logic Server into your applications.
+This repository contains the binaries needed to run Amzi! Prolog standalone or to integrate Amzi! Prolog Logic Server into your applications.
 Download the latest version for your platform, for best compatibility.
 
 The binary distribution files (ordered by platform) are:
@@ -15,6 +15,7 @@ The binary distribution files (ordered by platform) are:
 ## Eclipse IDE support
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
 The source code can be found in the separate IDE repository: https://github.com/AmziLS/ide
+
 A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*.
 
 ## .NET
