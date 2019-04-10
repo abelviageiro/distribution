@@ -28,12 +28,17 @@ A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zi
 ### Installation
 **Note:** Make sure you followed the steps above for the general installation of Amzi! Prolog and Logic Server, before proceeding.
 
-To install the Eclipse plugin, make sure you have a recent version of Eclipse. In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
+To install the Eclipse plugin, make sure you have a recent version of Eclipse.
+
+**Pitfall:** Be sure that the Eclipse version you installed and the Amzi! Prolog distribution ```amzi_apls_\*.zip``` match in their bitness! The plugin however works with both, 32 bit and 64 bit Eclipse.
+
+In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
 
 https://github.com/AmziLS/distribution/raw/master/eclipse_plugin_update_site/
 
 Check "Amzi! Eclipse Feature" (and its sub elements), click "Next" several times, accept the license terms, then click "Finish".
-Go in the menu "Window|Perspective|Open Perspective|Other..." and select "Prolog", then confirm.
+Go in the menu "Window|Perspective|Open Perspective|Other..." and select "Prolog", then confirm. The installation will proceed in the background (progress shown in the status bar). If there is a security warning about unsigned content, please confirm to "Install anyway". Finally, restart Eclipse to complete the installation.
+
 From there on, you may want to watch these two videos:
 
 - [Getting Started with Eclipse Amzi! Prolog](https://www.youtube.com/watch?v=EMxLnn2I9yo)
