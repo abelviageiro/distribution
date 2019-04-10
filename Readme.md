@@ -48,7 +48,7 @@ In Eclipse select the menu ```Help|Install New Software...```. In the edit box l
 https://github.com/AmziLS/distribution/raw/master/eclipse_plugin_update_site/
 
 Check "Amzi! Eclipse Feature" (and its sub elements), click "Next" several times, accept the license terms, then click "Finish".
-Go in the menu "Window|Perspective|Open Perspective|Other..." and select "Prolog", then confirm. The installation will proceed in the background (progress shown in the status bar). If there is a security warning about unsigned content, please confirm to "Install anyway". Finally, restart Eclipse to complete the installation.
+Go in the menu "Window|Perspective|Open Perspective|Other..." and select "Prolog", then confirm. The installation will proceed in the background (progress shown in the status bar). If there is a security warning about unsigned content, please confirm with "Install anyway". Finally, restart Eclipse to complete the installation.
 
 From there on, you may want to watch these two videos:
 
