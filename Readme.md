@@ -41,7 +41,7 @@ A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zi
 
 To install the Eclipse plugin, make sure you have a recent version of Eclipse.
 
-**Pitfall:** Be sure that the Eclipse version you installed and the Amzi! Prolog distribution ```amzi_apls_\*.zip``` match in their bitness! The plugin however works with both, 32 bit and 64 bit Eclipse.
+**Pitfall:** Be sure that the Eclipse version you installed and the Amzi! Prolog distribution ```amzi_apls_*.zip``` match in their bitness! The plugin however works with both, 32 bit and 64 bit Eclipse.
 
 In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
 
