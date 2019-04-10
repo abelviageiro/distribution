@@ -1,4 +1,4 @@
-# Amzi! Prolog Distribution
+# Amzi! Prolog and Logic Server Distribution
 This repository contains the binaries needed to run Amzi! Prolog standalone or to integrate Amzi! Prolog Logic Server into your applications.
 Download the latest version for your platform, for best compatibility.
 
@@ -11,6 +11,11 @@ The binary distribution files (ordered by platform) are:
   - amzi_apls_mac_\<Version>.zip
 - .NET:
   - see below
+  
+## Installation of 
+
+Extract the amzi_apls_\*.zip file to a location of your liking. Under Windows also set the environment variable AMZI_DIR to the folder you extracted the zip file to.
+For example, if you extracted ```amzi_apls_win64_\<Version>.zip``` to ```D:\amzi_prolog\apls```, then set AMZI_DIR to ```D:\amzi_prolog\apls```.
 
 ## Eclipse IDE support
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
@@ -19,6 +24,8 @@ The source code can be found in the separate IDE repository: https://github.com/
 A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*. Alternativley, follow the installation instructions below to get the latest plugin version, without having to explicitly download anything.
 
 ### Installation
+**Note:** Make sure you followed the steps above for the general installation of Amzi! Prolog and Logic Server, before proceeding.
+
 To install the Eclipse plugin, make sure you have a recent version of Eclipse. In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
 
 https://github.com/AmziLS/distribution/raw/master/eclipse_plugin_update_site/
