@@ -1,5 +1,5 @@
 # Amzi Prolog Distribution
-This repository contains the binaries needed to integrate Amzi Prolog and Logic Server into your applications.
+This repository contains the binaries needed run Amzi! Prolog standalone or to integrate Amzi! Prolog Logic Server into your applications.
 Download the latest version for your platform, for best compatibility.
 
 The binary distribution files (ordered by platform) are:
