@@ -16,7 +16,7 @@ The binary distribution files (ordered by platform) are:
 There is an Eclipse IDE plugin, that can run Prolog programs interpreted (consulted) or compiled, but also supports debugging.
 The source code can be found in the separate IDE repository: https://github.com/AmziLS/ide
 
-A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*, or follow the installation instructions below to get the latest plugin version, without having to explicitly download anything.
+A direct binary download is available here as *amzi_eclipse_plugin_\<Version>.zip*. Alternativley, follow the installation instructions below to get the latest plugin version, without having to explicitly download anything.
 
 ### Installation
 To install the Eclipse plugin, make sure you have a recent version of Eclipse. In Eclipse select the menu ```Help|Install New Software...```. In the edit box labeled "Work with:" enter the following URL and press "Add...":
